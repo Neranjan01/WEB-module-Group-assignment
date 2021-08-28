@@ -47,4 +47,11 @@ header .navigation a:not(:last-child)
     box-shadow: 0 0 20px 9px rgba(255, 123, 0, 0.658);
     border-radius: 30px;
 }
-.bu
+.toggleButton{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
