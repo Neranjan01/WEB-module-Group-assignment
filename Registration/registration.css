@@ -43,4 +43,8 @@ header .navigation a:not(:last-child)
 .form-box{
     width: 380px;
     height: 500px;
+    position: relative;
+    box-shadow: 0 0 20px 9px rgba(255, 123, 0, 0.658);
+    border-radius: 30px;
 }
+.bu
