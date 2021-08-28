@@ -7,10 +7,11 @@
 section{
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     background: url(Nature-Minimalist-Wallpaper-3840x2160-00747.jpg);
     background-size: cover;
 }
+
