@@ -83,6 +83,7 @@
     background: none;
     background-size: 200%;
     background-position: left;
+    transition: border 0.3s;
 }
 
 .Register:hover {
