@@ -52,3 +52,12 @@
 .navbar ul li:hover::after {
     width: 100%;
 }
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
