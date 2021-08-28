@@ -28,11 +28,6 @@ header{
     align-items: center;
 }
 
-.logo{
-    width: 300px;
-    cursor: pointer;
-}
-
 header .navigation a{
     color: white;
     text-decoration: none;
@@ -115,7 +110,7 @@ header .navigation a:hover{
 }
 .submit-btn{
     width: 85%;
-    padding: 10px 30px;
+    padding: 10px 50px;
     cursor: pointer;
     display: block;
     margin: auto;
