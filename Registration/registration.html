@@ -5,67 +5,65 @@
     <title>Registration page</title>
     <body>
         <section>
-            <input type="chechbox" id="check">
+            
             <header>
-                <label for="check">
-                    <i class="menu-button"></i>
-                    <i class="close-button"></i>
+               
+               <label for="check">
+                    <i class="fas fa-bars menu-btn"></i>
+                    <i class="fas fa-times close-btn"></i>
                 </label>
             </header>
-            <div id="loginForm" class="login page">
+            <div id="login form" class="login-page">
                 <div class="form-box">
-
-                <div class="button-box">
-                    <div id="btn"></div>
-                    <button type="button" onclick="login()" class="toggleButton">Login</button>
-                    <button type="button" onclick="register()" class="toggleButton">Register</button>
-                </div>
-
-                <form id="login" class="input-login">
-                    <input type="text" class="inputField" placeholder="Email address" required>
-                    <input type="password" class="inputField" placeholder="Enter password" required>
-                    <button type="submit" class="submitButton">Login</button>
-                </form>
-                <form id="register" class="input-register">
-                    <input type="text" class="inputField" placeholder="First Name" required>
-                    <input type="text" class="inputField" placeholder="Last Name" required>
-                    <input type="email" class="inputField" placeholder="Email Address" required>
-                    <input type="password" class="inputField" placeholder="Enter a Password" required>
-                    <input type="password" class="inputField" placeholder="Confirm Password" required>
-                    <input type="checkbox" class="chechBox"><span>I agree to the terms and conditions</span>
-                    <button type="submit" class="submitButton">Register</button>
-                </form>
-                <script>
-                    var x=document.getElementById('login');
-                    var y=document.getElementById('register');
-                    var z=document.getElementById('btn');
-
-                    function register()
-                    {
-                        x.style.left='-400px';
-                        y.style.left='50px';
-                        z.style.left='110px';
-                    }
-
-                    function login()
-                    {
-                        x.style.left='50px';
-                        y.style.left='450px';
-                        z.style.left='0px';
-                    }
-                </script>
-                <script>
-                    var modal=document.getElementById('login-form');
-                    window.onclick=function(event)
-                    {
-                        if(event.target == modal)
+                    <div class="button-box">
+                        <div id="btn"></div>
+                        <button type="button" onclick="login()" class="toggle-btn">Log In</button>
+                        <button type="button" onclick="register()" class="toggle-btn">Register</button>
+                    </div>
+                    <form id="login" class="input-group-login">
+                        <input type="text" class="input-field" placeholder="Email Address" required>
+                        <input type="password" class="input-field" placeholder="Enter Password" required>
+                        <button type="submit" class="submit-btn" id="login">Log In</button>
+                    </form>
+                    <form id="register" class="input-group-register">
+                        <input type="text" class="input-field" placeholder="First Name" required>
+                        <input type="text" class="input-field" placeholder="Last Name" required>
+                        <input type="email" class="input-field" placeholder="Email Address" required>
+                        <input type="password" class="input-field" placeholder="Enter Password" required>
+                        <input type="password" class="input-field" placeholder="Confirm Password" required>
+                        <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+                        <button type="submit" class="submit-btn">Register</button>
+                    </form>
+                    <script>
+                        var x=document.getElementById('login');
+                        var y=document.getElementById('register');
+                        var z=document.getElementById('btn');
+                        function register()
                         {
-                            modal.style.display = 'none';
+                            x.style.left='-400px';
+                            y.style.left='50px';
+                            z.style.left='110px';
                         }
-                    }
-                </script>
+                        function login()
+                        {
+                            x.style.left='50px';
+                            y.style.left='450px';
+                            z.style.left='0px';
+                        }
+                    </script>
+                    <script>
+                        var modal = document.getElementById('login-form');
+                        window.onclick = function(event)
+                        {
+                            if (event.target == modal)
+                            {
+                                modal.style.display = 'none';
+                            }
+                        }
+                    </script>
+                </div>
+            <p>         <br>     <br> </p>
             </div>
-            <p>           <br>        <br> </p>
         </section>
     </body>
 </html>
