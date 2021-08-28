@@ -24,3 +24,10 @@
     width: 170px;
     cursor: pointer;
 }
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
