@@ -66,3 +66,8 @@
     font-size: 50px;
     font-weight: bold;
 }
+
+.content p {
+    font-weight: 100px;
+    margin: 20px auto;
+}
