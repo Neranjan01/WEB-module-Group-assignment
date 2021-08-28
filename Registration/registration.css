@@ -14,4 +14,22 @@ section{
     background: url(Nature-Minimalist-Wallpaper-3840x2160-00747.jpg);
     background-size: cover;
 }
-
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .navigation a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 00.3s;
+    transition-property: background;
+}
