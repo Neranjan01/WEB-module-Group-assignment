@@ -37,3 +37,13 @@
     color: white;
     font-family: sans-serif;
 }
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #ffc107;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
