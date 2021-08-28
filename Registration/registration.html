@@ -51,7 +51,18 @@
                         z.style.left='0px';
                     }
                 </script>
+                <script>
+                    var modal=document.getElementById('login-form');
+                    window.onclick=function(event)
+                    {
+                        if(event.target == modal)
+                        {
+                            modal.style.display = 'none';
+                        }
+                    }
+                </script>
             </div>
+            <p>           <br>        <br> </p>
         </section>
     </body>
 </html>
