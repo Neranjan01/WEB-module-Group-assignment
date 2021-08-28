@@ -98,4 +98,6 @@
 
 .Register:hover {
     border: 2px solid white;
+    transition: background-color 0.3s;
+    background-color: rgba(127, 255, 212, 0.123);
 }
