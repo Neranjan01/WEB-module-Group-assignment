@@ -33,3 +33,14 @@ header .navigation a{
     transition: 00.3s;
     transition-property: background;
 }
+header .navigation a:not(:last-child)
+{
+    margin-right: 30px;
+}
+#loginForm{
+    display: none;
+}
+.form-box{
+    width: 380px;
+    height: 500px;
+}
