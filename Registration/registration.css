@@ -1,174 +1,157 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: sans-serif;
 }
 
-section{
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background: url(Nature-Minimalist-Wallpaper-3840x2160-00747.jpg)no-repeat;
-    background-size: cover;
-    background-position: center;
-    
-}
 
-header{
-    position: relative;
-    top: 0;
-    width: 100%;
-    padding: 30px 100px;
+.navbar {
+    width: 85%;
+    padding: 35px 0;
+    margin: 6%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 
-header .navigation a{
-    color: white;
+.logo {
+    width: 170px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
     text-decoration: none;
-    font-weight: 600;
-    letter-spacing: 1px;
-    padding: 2px 15px;
-    border-radius: 20px;
-    transition: 0.3s;
-    transition-property: background;
+    color: white;
+    font-family: sans-serif;
 }
 
-header .navigation a:not(:last-child){
-    margin-right: 30px;
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #ffc107;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
 }
 
-header .navigation a:hover{
-    background: #ba55d3;
+.navbar ul li:hover::after {
+    width: 100%;
 }
-#login-form{
-    display: none;
+.outer{
+    
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(booksbackground.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
 }
 .form-box{
+    margin-top: -50px;
     width: 380px;
-    height: 500px;
+    height: 480px;
     position: relative;
-    margin: 2% auto;
-    background: rgba(0,0,0,0.3);
-    padding: 10px;
+    margin-top: 0%;
+    margin: 6% auto;
+    background: rgba(0,0,0,0.5);
+    padding: 5px;
     overflow: hidden;
 }
 .button-box{
     width: 220px;
     margin: 35px auto;
     position: relative;
-    box-shadow: 0 0 20px 9px #ff61241f;
+    box-shadow: 0 0 20px 8px darkgoldenrod;
     border-radius: 30px;
+    align-content: center;
+    align-self: center;
 }
-.toggle-btn{
+.toggle{
     padding: 10px 30px;
     cursor: pointer;
     background: transparent;
     border: 0;
     outline: none;
     position: relative;
+    color: paleturquoise;
 }
-#btn{
+#button-for-toggle{
     top: 0;
     left: 0;
     position: absolute;
     width: 110px;
     height: 100%;
-    background: #ba55d3;
+    background: linear-gradient(to right, rgb(151, 100, 3), rgb(209, 152, 162));
     border-radius: 30px;
     transition: 0.5s;
+    
 }
-.input-group-login{
-    top: 150px;
+.inputs-login{
+    top: 180px;
     position: absolute;
     width: 280px;
     transition: 0.5s;
-    color: black;
 }
-.input-group-register{
-    top: 120px;
+.inputs-register{
+    top: 100px;
     position: absolute;
     width: 280px;
     transition: 0.5s;
+
 }
 .input-field{
     width: 100%;
     padding: 10px 0;
-    margin: 5px 0;
-    border-left: 0;
     border-top: 0;
+    border-left: 0;
     border-right: 0;
-    border-bottom: 1px solid black;
-    outline: none;
+    border-bottom: 1px solid lightpink;
     background: transparent;
-    
+    outline: none;
+    margin-bottom: 10px;
+    color: skyblue;
 }
-.submit-btn{
+.submit-button-for-login{
     width: 85%;
-    padding: 10px 50px;
+    margin-top: 80px;
+    margin-left: 7.5%;
+    padding: 10px 30px;
     cursor: pointer;
     display: block;
-    margin: auto;
-    background: #ba55d3;
+    background: linear-gradient(to right, rgb(151, 100, 3), rgb(209, 152, 162));
     border: 0;
     outline: none;
     border-radius: 30px;
+    position: relative;
+    align-content: center;
+    color: snow;
 }
-.check-box{
-    margin: 30px 10px 34px 0;
+.submit-button-for-register{
+    width: 85%;
+    margin-top: 20px;
+    padding: 10px 30px;
+    margin-left: 7.5%;
+    cursor: pointer;
+    display: block;
+    background: linear-gradient(to right, rgb(151, 100, 3), rgb(209, 152, 162));
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: snow;
 }
-span{
-    color: black;
-    font-size: 12px;
-    bottom: 68px;
-    position: absolute;
-}
-#login{
+
+#login-form{
     left: 50px;
 }
-#login input{
-    color: white;
-    font-size: 15;
-}
-#register{
+#register-form{
     left: 450px;
-}
-#register input{
-    color: white;
-    font-size: 15;
-}
-.media-icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-
-.media-icons a{
-    position: relative;
-    color: #111;
-    font-size: 25px;
-    transition: 0.3s;
-    transition-property: transform;
-}
-
-.media-icons a:not(:last-child){
-    margin-right: 60px;
-}
-
-.media-icons a:hover{
-    transform: scale(1.5);
-}
-
-label{
-    display: none;
-}
-
-#check{
-    z-index: 3;
 }
