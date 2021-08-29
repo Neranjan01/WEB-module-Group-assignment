@@ -120,6 +120,7 @@
     width: 40%;
     height: 60vh;
     background: #0000008c;
+    display: inline-block;
 }
 
 .description1 {
