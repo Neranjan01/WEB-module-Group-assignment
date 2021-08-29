@@ -147,3 +147,11 @@
     display: inline-block;
     margin-left: 100px;
 }
+
+.rightside {
+    right: 0%;
+    position: absolute;
+    width: 50%;
+    height: 60vh;
+    overflow: hidden;
+}
