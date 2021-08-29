@@ -109,4 +109,7 @@
 .two {
     border: 6px solid black;
     height: 60vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url(5.jpg);
+    background-size: cover;
+    background-position: center;
 }
