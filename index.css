@@ -115,3 +115,9 @@
     background-position: center;
     background-attachment: fixed;
 }
+
+.tarea {
+    width: 40%;
+    height: 60vh;
+    background: #0000008c;
+}
