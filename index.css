@@ -155,3 +155,11 @@
     height: 60vh;
     overflow: hidden;
 }
+
+.rightside .logoimg {
+    background: url('logo.png') center;
+    background-size: cover;
+    height: 38vh;
+    width: 500px;
+    margin-left: 10%;
+}
