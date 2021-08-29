@@ -139,3 +139,11 @@
     width: 540px;
     margin-left: 130%;
 }
+
+.leftside {
+    left: 0;
+    position: absolute;
+    width: 50%;
+    height: 60vh;
+    overflow: hidden;
+}
