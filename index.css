@@ -126,12 +126,6 @@
     padding-top: 40px;
 }
 
-.logoimg {
-    height: 38vh;
-    width: 540px;
-    margin-left: 130%;
-}
-
 .leftside {
     left: 0;
     position: absolute;
@@ -161,5 +155,5 @@
     background-size: cover;
     height: 38vh;
     width: 500px;
-    margin-left: 10%;
+    margin-top: 10%;
 }
