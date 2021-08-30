@@ -95,7 +95,9 @@
 .Register {
     padding: 15px 25px;
     margin: 20px;
-    font-size: 16px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
     letter-spacing: 1px;
     border: 2px solid #ffc107;
     color: white;
