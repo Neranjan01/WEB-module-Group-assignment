@@ -119,8 +119,8 @@
 
 .two {
     border: 6px solid black;
-    height: 80vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url(6.jpg);
+    height: 84vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url(4.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
