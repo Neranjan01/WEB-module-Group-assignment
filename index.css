@@ -93,7 +93,10 @@
 }
 
 .Register {
-    padding: 15px 25px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 30px;
+    padding-left: 30px;
     margin: 20px;
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
@@ -111,7 +114,7 @@
 .Register:hover {
     border: 2px solid white;
     transition: background-color 0.3s;
-    background-color: rgba(127, 255, 212, 0.123);
+    background-color: rgba(197, 179, 74, 0.205);
 }
 
 .two {
