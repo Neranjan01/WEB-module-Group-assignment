@@ -128,11 +128,13 @@
 
 .description1 {
     color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
     padding: 3px;
     margin: 10px;
     padding-top: 40px;
+    line-height: 37px;
+    letter-spacing: 1.3px;
 }
 
 .leftside {
