@@ -146,11 +146,12 @@
 }
 
 .leftside .tarea {
-    width: 80%;
-    height: 60vh;
-    background: #0000008c;
+    width: 90%;
+    height: 80vh;
+    background: #0000007a;
     display: inline-block;
     margin-left: 10%;
+    padding: 10px;
 }
 
 .rightside {
