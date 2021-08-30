@@ -199,7 +199,8 @@
 .rightside .logoimg {
     background: url('logo.png') center;
     background-size: cover;
-    height: 38vh;
-    width: 500px;
-    margin-top: 10%;
+    height: 35vh;
+    width: 450px;
+    margin-top: 20%;
+    margin-left: 10%;
 }
