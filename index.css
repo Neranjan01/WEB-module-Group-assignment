@@ -162,6 +162,13 @@
     background: none;
     background-size: 200%;
     background-position: left;
+    transition: border 0.3s;
+}
+
+.about:hover {
+    border: 2px solid white;
+    transition: background-color 0.3s;
+    background-color: rgba(197, 179, 74, 0.205);
 }
 
 .leftside {
