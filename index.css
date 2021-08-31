@@ -260,3 +260,10 @@
     text-align: center;
     padding: 80px;
 }
+
+.content3 h1 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
