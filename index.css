@@ -297,3 +297,13 @@ button:hover {
     transition: background-color 0.3s;
     background-color: rgba(255, 228, 196, 0.247);
 }
+
+.five {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 50vh;
+    flex-direction: column;
+    background: #ede7f6;
+    font-family: 'popins', sans-serif;
+}
