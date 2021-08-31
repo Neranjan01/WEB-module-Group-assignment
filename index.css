@@ -325,3 +325,8 @@ footer .container {
     justify-content: space-between;
     flex-direction: row;
 }
+
+footer .container .sec {
+    margin-right: 30px;
+    width: 40%;
+}
