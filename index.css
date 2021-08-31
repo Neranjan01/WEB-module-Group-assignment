@@ -276,6 +276,20 @@
 }
 
 .content3 button {
+    padding-top: 16px;
+    padding-right: 40px;
+    padding-bottom: 16px;
+    padding-left: 40px;
     margin-top: 30px;
-    border-color: white;
+    border: 2px solid white;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    cursor: pointer;
+    background: none;
+    background-size: 200%;
+    background-position: left;
+    transition: border 0.3s;
 }
