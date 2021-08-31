@@ -232,3 +232,17 @@
     background-color: transparent;
     background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493));
 }
+
+.rightside button {
+    padding-top: 16px;
+    padding-right: 40px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    margin-left: 200px;
+    margin-top: 60px;
+    border: 2px solid white;
+}
+
+.rightside button:hover {
+    background-color: rgba(255, 228, 196, 0.247);
+}
