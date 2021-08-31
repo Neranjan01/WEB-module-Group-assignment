@@ -255,3 +255,8 @@
     background-attachment: fixed;
     background-position: center;
 }
+
+.content3 {
+    text-align: center;
+    padding: 80px;
+}
