@@ -330,3 +330,10 @@ footer .container .sec {
     margin-right: 30px;
     width: 40%;
 }
+
+footer h2 {
+    position: relative;
+    color: white;
+    font-weight: 500px;
+    margin-bottom: 15px;
+}
