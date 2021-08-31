@@ -267,3 +267,10 @@
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
 }
+
+.content3 p {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 35px;
+    color: white;
+    font-size: 20px;
+}
