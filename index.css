@@ -291,5 +291,9 @@
     background: none;
     background-size: 200%;
     background-position: left;
-    transition: border 0.3s;
+}
+
+button:hover {
+    transition: background-color 0.3s;
+    background-color: rgba(255, 228, 196, 0.247);
 }
