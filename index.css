@@ -337,3 +337,13 @@ footer h2 {
     font-weight: 500px;
     margin-bottom: 15px;
 }
+
+footer h2::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #ffc107;
+}
