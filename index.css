@@ -196,6 +196,15 @@
     overflow: hidden;
 }
 
+.three {
+    border: 6px solid black;
+    height: 84vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url(6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 .rightside .logoimg {
     background: url('logo.png') center;
     background-size: cover;
