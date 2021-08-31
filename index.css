@@ -246,3 +246,12 @@
 .rightside button:hover {
     background-color: rgba(255, 228, 196, 0.247);
 }
+
+.four {
+    height: 70vh;
+    border: 6px solid black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url(7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
