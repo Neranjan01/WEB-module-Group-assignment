@@ -307,3 +307,14 @@ button:hover {
     background: #ede7f6;
     font-family: 'popins', sans-serif;
 }
+
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #111;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
