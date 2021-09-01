@@ -397,3 +397,11 @@ footer p {
     font-size: 20px;
     margin-right: 10px;
 }
+
+.copyright {
+    width: 100%;
+    background: #181818;
+    padding: 8px 100px;
+    text-align: center;
+    color: #999;
+}
