@@ -356,3 +356,19 @@ footer p {
     position: relative;
     width: 25%;
 }
+
+.quicklinks ul li {
+    list-style: none;
+}
+
+.quicklinks ul li a {
+    color: #999;
+    font-size: 15px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.quicklinks ul li a:hover {
+    color: white;
+}
