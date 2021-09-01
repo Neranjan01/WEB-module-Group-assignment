@@ -405,3 +405,12 @@ footer p {
     text-align: center;
     color: #999;
 }
+
+@media (max-width: 991px) {
+    footer {
+        padding: 40px;
+    }
+    footer .container {
+        flex-direction: column;
+    }
+}
