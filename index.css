@@ -372,3 +372,8 @@ footer p {
 .quicklinks ul li a:hover {
     color: white;
 }
+
+.contact {
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
