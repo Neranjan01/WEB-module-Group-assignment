@@ -302,7 +302,7 @@ button:hover {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    min-height: 100vh;
+    min-height: 30vh;
     flex-direction: column;
     background: #ede7f6;
     font-family: 'popins', sans-serif;
@@ -310,7 +310,7 @@ button:hover {
 
 footer {
     position: relative;
-    width: 100%;
+    width: 1149px;
     height: auto;
     padding: 50px 100px;
     background: #111;
