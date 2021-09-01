@@ -302,7 +302,7 @@ button:hover {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    min-height: 50vh;
+    min-height: 100vh;
     flex-direction: column;
     background: #ede7f6;
     font-family: 'popins', sans-serif;
