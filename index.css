@@ -347,3 +347,7 @@ footer h2::before {
     height: 2px;
     background: #ffc107;
 }
+
+footer p {
+    color: #999;
+}
