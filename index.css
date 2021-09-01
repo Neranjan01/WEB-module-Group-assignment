@@ -351,3 +351,8 @@ footer h2::before {
 footer p {
     color: #999;
 }
+
+.quicklinks {
+    position: relative;
+    width: 25%;
+}
