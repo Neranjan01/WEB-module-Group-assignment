@@ -12,13 +12,6 @@ body{
     font-family: 'Poppins',sans-serif;
     background-attachment: fixed;
     background-repeat: inherit;
-    /**
-    background-color: transparent;
-    background-image: linear-gradient(rgba(121, 67, 67, 0.4), rgba(0, 0, 0, 0.3)), url(booksbackground.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: papayawhip;
-    */
     
 }
 .content{
