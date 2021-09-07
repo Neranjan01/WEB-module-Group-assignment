@@ -85,3 +85,11 @@ body {
 #aboutbtn:hover {
     background: rgba(221, 188, 96, 0.404);
 }
+
+
+/* Featurette */
+
+.featurette-divider {
+    margin: 5rem 0;
+    /* Space out the Bootstrap <hr> more */
+}
