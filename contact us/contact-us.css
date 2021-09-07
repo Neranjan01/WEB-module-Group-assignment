@@ -23,3 +23,16 @@ body {
 .signup:hover {
     color: white;
 }
+
+.cover-container {
+    max-width: 200em;
+}
+
+.contact-info {
+    color: white;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
