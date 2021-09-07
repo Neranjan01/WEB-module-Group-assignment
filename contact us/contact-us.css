@@ -7,3 +7,19 @@ body {
     background-repeat: inherit;
     background-attachment: fixed;
 }
+.navbar {
+    background: rgba(0, 0, 0, 0.795) !important;
+}
+
+#navlogo {
+    height: 30px;
+}
+
+.signup {
+    text-decoration: none;
+    color: white;
+}
+
+.signup:hover {
+    color: white;
+}
