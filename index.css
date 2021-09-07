@@ -1,3 +1,20 @@
 body {
     color: #5a5a5a;
 }
+
+.navbar {
+    background: rgba(0, 0, 0, 0.795) !important;
+}
+
+#navlogo {
+    height: 30px;
+}
+
+.signup {
+    text-decoration: none;
+    color: white;
+}
+
+.signup:hover {
+    color: white;
+}
