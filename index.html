@@ -1,49 +1,54 @@
-<html>
+<!doctype html>
+<html lang="en">
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-<meta name="generator" content="Hugo 0.84.0">
-<title>ScrollShare</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>ScrollShare</title>
 
-<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- Font awesome CSS -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
 
-
-<!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-
-<style>
-    .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-    }
-    
-    @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-            font-size: 3.5rem;
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
         }
-    }
-</style>
-<link rel="stylesheet" href="index.css">
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <link href="index.css" rel="stylesheet">
 </head>
 
 <body>
+
+
     <header>
         <!-- Navigation Bar-->
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="logo.png" class="img-fluid" id="navlogo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
+        <span class="navbar-toggler-icon"></span>
+      </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
 
@@ -69,8 +74,9 @@
         </nav>
         <!-- End Navigation Bar-->
     </header>
-    <!-- Start Carousel Slider-->
+
     <main>
+
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -124,53 +130,71 @@
       <span class="visually-hidden">Next</span>
     </button>
         </div>
-        <!-- End Carousel Slider-->
-        <hr class="featurette-divider">
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Why donation is known as a sign of solidarity?</h2>
-                <p class="lead">“Knowledge is power as long as it is shared” is a famous saying. A book is considered as a device to ignite imagination and to gain great knowledge. So, the books which gained you knowledge can also gain knowledge to someone else. Donate
-                    to enhance education because learning can’t wait </p>
-            </div>
-            <div class="col-md-5">
-                <img src="44.jpg" class="img-fluid">
 
+
+        <!-- Marketing messaging and featurettes
+  ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+
+            <!-- /.row -->
+
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Why donation is known as a sign of solidarity?</h2>
+                    <p class="lead">“Knowledge is power as long as it is shared” is a famous saying. A book is considered as a device to ignite imagination and to gain great knowledge. So, the books which gained you knowledge can also gain knowledge to someone else.
+                        Donate to enhance education because learning can’t wait </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="44.jpg" class="img-fluid">
+
+                </div>
             </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">Be the reason for literacy and <span class="text-muted">create the difference that the world is seeking for</span></h2>
+                    <p class="lead">There are people who are unble to access books. Therefore, our platform enables to get books at free of cost anywhere in Sri Lanka.</p>
+
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="5.jpg" class="img-fluid">
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Be the reason for literacy and <span class="text-muted">create the difference that the world is seeking for</span></h2>
+                    <p class="lead">There are people who are unble to access books. Therefore, our platform enables to get books at free of cost anywhere in Sri Lanka.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="6.jpg" class="img-fluid">
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- /END THE FEATURETTES -->
+
         </div>
-        <hr class="featurette-divider">
+        <!-- /.container -->
 
-        <div class="row featurette">
-            <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading">Be the reason for literacy and <span class="text-muted">create the difference that the world is seeking for</span></h2>
-                <p class="lead">There are people who are unble to access books. Therefore, our platform enables to get books at free of cost anywhere in Sri Lanka.</p>
 
-            </div>
-            <div class="col-md-5 order-md-1">
-                <img src="5.jpg" class="img-fluid">
-
-            </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Be the reason for literacy and <span class="text-muted">create the difference that the world is seeking for</span></h2>
-                <p class="lead">There are people who are unble to access books. Therefore, our platform enables to get books at free of cost anywhere in Sri Lanka.</p>
-            </div>
-            <div class="col-md-5">
-                <img src="6.jpg" class="img-fluid">
-
-            </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- /END THE FEATURETTES -->
-
-        </div>
-
-        <!-- Footer-->
+        <!-- FOOTER -->
         <footer class="footer">
             <div class="container">
                 <div class="row">
@@ -211,11 +235,16 @@
             <p> Copyright &copy; 2021 ScrollShare. All Rights Reserved.</p>
         </div>
 
-        <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
 
     </main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
