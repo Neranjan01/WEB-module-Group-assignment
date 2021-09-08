@@ -1,82 +1,11 @@
-
-*{
-    margin:0;
-    padding:0;
-    font-family: mazzard H ExtraLight;
-    box-sizing:border-box;
-}
-    .navbar
-     {
-      width: 85%;
-      padding: 35px 0;
-      margin: auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-  }
-  .logo {
-    width: 170px;
-    cursor: pointer;
-}
-.navbar ul li {
-  list-style: none;
-  display: inline-block;
-  margin: 0 20px;
-  position:relative;
-
-}
-.navbar ul li a{
-  text-decoration: none;
-  color: white;
-  font-family: sans-serif;
-
-}
-.navbar ul li::after{
-  content:'';
-  height: 3px;
-  width: 0;
-  background: #ffc107;
-  position: absolute;
-  left:0;
-  bottom:-10px;
-  transition: 0.5s;
-}
-.navbar ul li:hover::after {
-  width: 100%;
-}
-.services-section
-{position: relative;
-  height: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  background-image:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(bookes.jpg);
-  background-size: cover;
-  background-position: center;
-}
-.inner-width{
-  width: 100%;
-  max-width: 1300px;
-  margin: auto;
-  padding: 0 20px;
-  overflow: hidden;
-}
-.section-title{
-	
-   
-  text-align: center;
-  color:#fff;
-  text-transform: uppercase;
-  font-size: 60px;
-}
-h4 {
-	font-family:ABeezee;
-    font-size: 40px;
-    line-height: 1.375em;
-    color: aquamarine;
-    font-weight: 400;
-    margin-bottom: 30px;
-	text-align:center;
-  }  
-
+           /* GLOBAL STYLES
+-------------------------------------------------- */
+            /* Padding below the footer and lighter body text */
+            
+            body {
+              color: #5a5a5a;
+              background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(bookes.jpg);
+              height: 100vh;
+              width: 100%;
+              background-size: cover;
+          }
