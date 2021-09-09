@@ -25,3 +25,14 @@
         .signup:hover {
             color: white;
         }
+        .card {
+            cursor: pointer;
+            border: 1px solid black;
+            border-spacing: 15px 50px;
+            max-width: 44.33%;
+            padding: 20px;
+            text-align: center;
+            color: back;
+            width: 400px
+            
+        }
