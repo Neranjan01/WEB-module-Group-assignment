@@ -206,3 +206,7 @@ info ul li {
     display: block;
     transition: all 0.3s ease;
 }
+.info ul li:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
