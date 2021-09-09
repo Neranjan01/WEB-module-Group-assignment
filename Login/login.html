@@ -72,5 +72,34 @@
         </nav>
     </header>
 
+
+
+    <!--Sign in form -->
+    <div class="container-fluid" id="outer">
+        <div class="row content">
+            <div class="col-md-6 mb-3">
+                <img src="logo2.png" class="img-fluid" alt="Logo">
+            </div>
+            <div class="col-md-6">
+                <h3 class="signin-text mb-3">Sign In</h3>
+                <form name="loginform" action="" onsubmit="validate()">
+                    <div class="form-group">
+                        <label for="Username">Username</label>
+                        <input type="text" id="uname" name="username" class="form-control" required minlength="4">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="passwrd" name="password" class="form-control" required minlength="8">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" name="checkbox" class="form-check-input" id="checkbox">
+                        <label for="checkbox" class="form-check-label">Remember Me</label>
+                    </div>
+                    <input type="submit" name="Login" class="btn btn-class">
+                </form>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
