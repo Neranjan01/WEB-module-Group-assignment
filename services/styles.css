@@ -43,3 +43,22 @@
             text-transform: uppercase;
             font-size: 60px;
         }
+        h1 {
+            font-family: ABeezee;
+            font-size: 50px;
+            line-height: 1.375em;
+            color: aquamarine;
+            font-weight: 400;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .card .hover,
+            .card:hover {
+                transition: .3s;
+                box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+            }
+            
+            .img {
+                margin-bottom: 25px;
+                width: 100px;
+            }
