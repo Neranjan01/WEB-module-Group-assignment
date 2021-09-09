@@ -108,3 +108,7 @@ body {
     background: #ffc107;
 }
 /* Footer */
+.foot {
+    max-width: 1170px;
+    margin: auto;
+}
