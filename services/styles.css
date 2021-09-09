@@ -190,4 +190,21 @@
                 color: #24262b;
                 background-color: #ffffff;
             }
+            .flogo {
+                padding-bottom: 20px;
+            }
+            
+            .about {
+                width: 40%;
+            }
+            
+            .about p {
+                font-size: 16px;
+                text-transform: capitalize;
+                color: #ffffff;
+                text-decoration: none;
+                font-weight: 300;
+                color: #bbbbbb;
+                display: block;
+            }
             
