@@ -187,3 +187,12 @@ ul {
 .about {
     width: 40%;
 }
+.about p {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+}
