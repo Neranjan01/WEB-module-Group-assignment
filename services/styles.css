@@ -207,4 +207,27 @@
                 color: #bbbbbb;
                 display: block;
             }
+            .info ul li {
+                font-size: 16px;
+                text-transform: capitalize;
+                color: #ffffff;
+                text-decoration: none;
+                font-weight: 300;
+                color: #bbbbbb;
+                display: block;
+                transition: all 0.3s ease;
+            }
             
+            .info ul li:hover {
+                color: #ffffff;
+                padding-left: 8px;
+            }
+            /* Copyright */
+            
+            .copyright {
+                width: 100%;
+                background: #181818;
+                padding: 8px 100px;
+                text-align: center;
+                color: #999;
+            }
