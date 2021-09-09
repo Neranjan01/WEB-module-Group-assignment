@@ -62,3 +62,30 @@
                 margin-bottom: 25px;
                 width: 100px;
             }
+            .card-title {
+                font-size: 25px;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+            
+            .text-muted {
+                font-size: 15px;
+                text-align: center;
+                padding: 20px;
+            }
+            
+            a:link {
+                color: red;
+            }
+            
+            a:visited {
+                color: green;
+            }
+            
+            a:hover {
+                color: blue;
+            }
+            
+            #more {
+                display: none;
+            }
