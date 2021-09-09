@@ -224,3 +224,9 @@ info ul li {
     color: #999;
 }
 /*responsive*/
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
