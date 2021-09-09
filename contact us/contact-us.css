@@ -136,5 +136,14 @@ ul {
     font-weight: 500;
     position: relative;
 }
-
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #0b8a2b;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
 
