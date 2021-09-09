@@ -36,3 +36,10 @@
             width: 400px
             
         }
+        .hd {
+            margin-bottom: 30px;
+            text-align: center;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 60px;
+        }
