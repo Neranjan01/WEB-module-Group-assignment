@@ -75,3 +75,41 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+
+
+
+/**Navigation bar CSS*/
+.navbar {
+    background: rgba(0, 0, 0, 0.795) !important;
+}
+
+#navlogo {
+    height: 30px;
+}
+
+.signup {
+    text-decoration: none;
+    color: white;
+}
+
+.signup:hover {
+    color: white;
+}
+
+
+
+/*navigation bar*/
+#navlogo {
+    height: 25px;
+    background-color: transparent;
+}
+
+.signup {
+    text-decoration: none;
+    color: white;
+}
+
+.signup:hover {
+    color: white;
+}
