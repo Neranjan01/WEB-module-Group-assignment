@@ -1,2 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
 
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(loginpagebg2.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+    font-family: sans-serif;
+    background-attachment: fixed;
+    background-repeat: inherit;   
+}
+
+/*Login form*/
+#outer{
+    padding-top: 65px;
+}
+
+.content{
+    margin: 8%;
+    background-color: transparent;
+    padding: 4rem 1rem 4rem 1rem;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5) ;
+}
+.signin-text{
+    font-style: normal;
+    font-family: 'Poppins';
+    font-size: 45px;
+    font-weight: 600 !important;
+    color: papayawhip;
+    text-align: center;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-color: rgb(208, 255, 0) !important;
+    border-style: solid !important;
+    border-width: 0 0 1px 0 !important;
+    padding: 0px !important;
+    margin-bottom: 10px;
+    color: white;
+    height: auto;
+    border-radius: 0;
+    background-color: transparent;
+    background-clip: padding-box;
+}
+.form-control:focus{
+    color: palegoldenrod;
+    background-color: transparent;
+    border-color: white;
+    outline: 0;
+    box-shadow: none;
+}
+.btn-class{
+    border-color: skyblue;
+    color: skyblue;
+}
+
+.btn-class:hover{
+    background-color: lightcyan;
+}
+
+.form-group{
+    color: pink;
+    font-family: sans-serif;
+
+}
+
+.form-group.form-check{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
