@@ -76,4 +76,39 @@
                 text-align: center;
                 padding: 20px;
             }
+            a:link {
+                color: red;
+            }
+            
+            a:visited {
+                color: green;
+            }
+            
+            a:hover {
+                color: blue;
+            }
+            
+            #more {
+                display: none;
+            }
+            
+            .more {
+                padding-top: 16px;
+                padding-bottom: 16px;
+                padding-right: 30px;
+                padding-left: 30px;
+                margin: 20px;
+                font-size: 15px;
+                font-family: 'Montserrat', sans-serif;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                border: 2px solid #ffc107;
+                border-radius: 12px;
+                color: rgb(245, 34, 6);
+                cursor: pointer;
+                background: none;
+                background-size: 200%;
+                background-position: left;
+                transition: border 0.3s;
+            }
             
