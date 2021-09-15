@@ -60,3 +60,20 @@
                 transition: .3s;
                 box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
             }
+            .img {
+                margin-bottom: 25px;
+                width: 100px;
+            }
+            
+            .card-title {
+                font-size: 25px;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+            
+            .text-muted {
+                font-size: 15px;
+                text-align: center;
+                padding: 20px;
+            }
+            
