@@ -191,3 +191,79 @@
                 color: #24262b;
                 background-color: #ffffff;
             }
+            .flogo {
+                padding-bottom: 20px;
+            }
+            
+            .about {
+                width: 40%;
+            }
+            
+            .about p {
+                font-size: 16px;
+                text-transform: capitalize;
+                color: #ffffff;
+                text-decoration: none;
+                font-weight: 300;
+                color: #bbbbbb;
+                display: block;
+            }
+            
+            .info ul li {
+                font-size: 16px;
+                text-transform: capitalize;
+                color: #ffffff;
+                text-decoration: none;
+                font-weight: 300;
+                color: #bbbbbb;
+                display: block;
+                transition: all 0.3s ease;
+            }
+            
+            .info ul li:hover {
+                color: #ffffff;
+                padding-left: 8px;
+            }
+            /* Copyright */
+            
+            .copyright {
+                width: 100%;
+                background: #181818;
+                padding: 8px 100px;
+                text-align: center;
+                color: #999;
+            }
+            /*responsive*/
+            
+            @media(max-width: 767px) {
+                .footer-col {
+                    width: 50%;
+                    margin-bottom: 30px;
+                }
+            }
+            
+            @media(max-width: 574px) {
+                .footer-col {
+                    width: 100%;
+                }
+            }
+            /* RESPONSIVE CSS
+-------------------------------------------------- */
+            
+            @media (min-width: 40em) {
+                /* Bump up size of carousel content */
+                .carousel-caption p {
+                    margin-bottom: 1.25rem;
+                    font-size: 1.25rem;
+                    line-height: 1.4;
+                }
+                .featurette-heading {
+                    font-size: 50px;
+                }
+            }
+            
+            @media (min-width: 62em) {
+                .featurette-heading {
+                    margin-top: 7rem;
+                }
+            }
